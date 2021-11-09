@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Software Club </title>
+<link rel="stylesheet" type="text/css" href="css/style1.css">
+<style>
+.footer {
+   clear: both;
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 60px;
+   background-color: #333333;
+   color: white;
+   text-align: center;
+   margin-top: -40px;
+   vertical-align: middle;
+  font-family: "montserrat",sans-serif;
+
+}
+</style>
+</head>
+<body>
+	<header>
+	<nav>
+	<div class="main">
+			<div class="logo">
+					<img src="logo.png">
+			</div>
+		
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#sec1">Activity</a></li>
+			<li><a href="#sec2">Gallery</a></li>
+			<li><a href="#sec3">Our Team</a></li>
+			<li><a href="contact.html" target="_blank">Join us</a></li>
+		</ul></nav>
+	</div>
+	<div class="title">
+		<h1>< Trust me!! You are a Programmer/></h1>
+	</div>
+	
+	</header>
+	<section class="sec1">
+		<div class="services">
+      <h1>Activities<a name="sec1"></h1>
+      <div class="cen">
+        <div class="service">
+          <!--<i class="fas fa-anchor"></i>-->
+			<img src="https://img.icons8.com/metro/52/000000/python.png">
+          <h2>Python</h2>
+          <p>Python is an interpreted, high-level, general-purpose programming language. That was taught by third year students to 
+			second year students of computer engineering beacuse now a days, that is used by top tier companies.</p>
+        </div>
+
+        <div class="service">
+          <!--<i class="far fa-angry"></i>-->
+			<img src="https://img.icons8.com/metro/52/000000/java-coffee-cup-logo.png">
+          <h2>Java</h2>
+          <p>Java is a general-purpose programming language that is class-based, object-oriented, and specifically designed to have 
+			as few implementation dependencies as possible. That was taught second year students
+			 of computer engineering.</p>
+        </div>
+
+        <div class="service">
+          <!--<i class="fab fa-angellist"></i>-->
+			<img src="https://img.icons8.com/metro/52/000000/source-code.png">
+          <h2>HTML, CSS, JS</h2>
+          <p>HTML is used to create the basic structure and content of a webpage. CSS is used for the design of a webpage – where 
+			everything is placed and how it looks. JavaScript is used to define the interactive elements of a webpage that help to 
+			engage users.</p>
+        </div>
+
+
+        <div class="service">
+          <!--<i class="fab fa-android"></i>-->
+			<img src="https://img.icons8.com/metro/52/000000/android-os.png">
+          <h2>Android</h2>
+          <p>Android software development is the process by which new applications are created for devices running the Android 
+			operating system. Android apps can be written using Kotlin, Java, and C++ languages" using the 
+			Android SDK. </p>
+        </div>
+
+
+        <div class="service">
+          <!--<i class="fas fa-apple-alt"></i>-->
+			<img src="https://img.icons8.com/metro/52/000000/mac-os.png">
+          <h2>IOS</h2>
+          <p>iOS is a mobile operating system created and developed by Apple exclusively for its hardware. 
+			It is the OS that presently powers many of the company's mobile devices, including the iPhone, iPad, and 
+			iPod Touch. It is the second most popular mobile OS. </p>
+        </div>
+
+        <div class="service">
+          <!--<i class="fas fa-archway"></i>-->
+			<img src="https://img.icons8.com/metro/52/000000/mind-map.png">
+          <h2>Machine Learning</h2>
+          <p>An expert lecture on machine learning was deliveried by Dr. Andrew Ng who is CEO of Coursera-Online learning plateform.
+			Students learned , from where to start machine learning. He also offered a course of that for free to our students. </p>
+        </div>
+
+      </div>
+    </div>
+	</section>
+	<section class="sec2">
+		<style>
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f1f1f1;
+  font-family: "montserrat",sans-serif;
+}
+
+.glry{
+  background: #f1f1f1;
+  text-align: center;
+}
+
+#gl{
+  display: inline-block;
+  text-transform: uppercase;
+  border-bottom: 4px solid #000000;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<div class="glry">
+<h1 id="gl">GALLERY<a name="sec2"></a></h2>
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 5</div>
+    <img src="a.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 5</div>
+    <img src="b.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 5</div>
+    <img src="c.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 5</div>
+    <img src="d.jpg" style="width:100%">
+  </div>
+
+    
+  <div class="mySlides">
+    <div class="numbertext">5 / 5</div>
+    <img src="e.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+ </div>
+
+  
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+	</section>
+<section class="sec3">
+	<div class="team-section">
+    <div class="inner-width">
+      <h1>Meet Our Team<a name="sec3"></a></h1>
+      <div class="pers">
+
+
+        <div class="pe">
+          <img src="img/sp.jpg" alt="">
+          <div class="p-name">Prof. Sunit Parmar</div>
+          <div class="p-des">Faculty Coordinator</div>
+          <div class="p-sm">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="pe">
+          <img src="img/ps.jpg" alt="">
+          <div class="p-name">Prof. Partik Soni</div>
+          <div class="p-des">Faculty Coordinator</div>
+          <div class="p-sm">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="pe">
+          <img src="img/p3.png" alt="">
+          <div class="p-name">Ms. Megha Patel</div>
+          <div class="p-des">Student Coordinator</div>
+          <div class="p-sm">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+</section>
+<!--<section class="sec4">
+	<div class="contact-form">
+    <h1>Contact Us<a name="sec4"></h1>
+    <div class="txtb">
+      <label>Full Name :</label>
+      <input type="text" name="" value="" placeholder="Enter Your Name">
+    </div>
+
+    <div class="txtb">
+      <label>Email :</label>
+      <input type="email" name="" value="" placeholder="Enter Your Email">
+    </div>
+
+    <div class="txtb">
+      <label>Phone Number :</label>
+      <input type="text" name="" value="" placeholder="Enter Your Phone Number">
+    </div>
+
+    <div class="txtb">
+      <label>Message :</label>
+      <textarea></textarea>
+    </div>
+    <button class="btn" onclick="myFunction()">
+      <a>Send</a>
+    </button>
+    <script>
+      function myFunction() {
+        alert("Thanks for your interest.");
+      }
+    </script>
+  </div>
+</section>-->
+<div class="footer">
+		<p text-align = "center" vertical-align="middle">&#169; 2019 | MBICT</p>	
+	</div>
+</body>
+</html>
